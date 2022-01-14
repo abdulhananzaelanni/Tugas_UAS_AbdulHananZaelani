@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="90dp"
+        android:src="@drawable/profile1"
+        android:layout_marginBottom="7dp"
+        android:onClick="Buka"
+        android:layout_height="70dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="MyProfile"
+        android:layout_marginBottom="35dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daftar_menu_makanan_dan_minuman1"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="20sp"
+        android:layout_marginBottom="32dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="110dp">
+
+    <GridLayout
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            android:padding="8dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_buka_ras_mkn_jepang"
+                    android:layout_width="160dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="100dp"
+                    android:src="@drawable/makanan3" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+
+                <GridLayout
+                    android:layout_width="160dp"
+                    android:rowCount="3"
+                    android:columnCount="2"
+                    android:layout_height="100dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_height="match_parent"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="20dp"
+                        android:padding="10dp"
+                        android:layout_width="match_parent">
+
+                <ImageButton
+                    android:id="@+id/btn_buka_ras_minuman"
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/minuman3" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </GridLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_gambar_untuk_membuka_galeri1"
+        android:textStyle="italic"
+        android:layout_marginBottom="32dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TugasList</string>
+    <string name="Nama_masakan">Food</string>
+    <string name="Masakan">Price</string>
+    <string name="Masakan1">Susie Price 12,000 yen</string>
+    <string name="Masakan2">Price</string>
+    <string name="Masakan3">Japanese Onigiri Price.16.00 yen</string>
+    <string name="masakan1">food</string>
+    <string name="Masakan4">Price</string>
+    <string name="masakan3">Food</string>
+    <string name="Masakan5">Japanese Udon Prices. 30,000 yen</string>
+    <string name="Masakan6">Price</string>
+    <string name="Masakan7">Food</string>
+    <string name="Masakan8">Dorayaki Japan Price. 50,000 yen</string>
+    <string name="Masakan9">\"Japanese Mochi Price. 300,000 yen \"</string>
+    <string name="Masakan10">Food</string>
+    <string name="Masakan11">\"Yakiniku Japanese Price. 70,000 yen \"</string>
+    <string name="Masakan12">Price</string>
+    <string name="Masakan13">Price</string>
+    <string name="Masakan14">Food</string>
+    <string name="Minuman1">Food</string>
+    <string name="Minuman2">price</string>
+    <string name="Minuman3">Genmaicha Price. 20,000 yen</string>
+    <string name="Minuman4">Drink</string>
+    <string name="Minuman5">\" Price\"</string>
+    <string name="Minuman6">\"Uroncha (Oolong Tea) Price. 30,000 yen\"</string>
+    <string name="Minuman7">Drink</string>
+    <string name="Minuman8">Price</string>
+    <string name="Minuman9">\"Aojiru Price. 10,000 yen \"</string>
+    <string name="Minuman10">Drink</string>
+    <string name="Minuman11">Price</string>
+    <string name="Minuman12">\"Sakura Tea (Cherry Blossom Tea) Price. 50,000 yen\"</string>
+    <string name="Minuman13">Drink</string>
+    <string name="Minuman14">price</string>
+    <string name="Minuman15">Royal Milk Tea Price. 60,000 yen</string>
+    <string name="Minuman16">Drink</string>
+    <string name="Minuman17">Price</string>
+    <string name="Minuman18">\"Kombu-cha (Kelp Tea) Price. 20,000 yen \"</string>
+    <string name="daftar_jenis_makanan1">Food Type List</string>
+    <string name="pilih_gambar_untuk_membuka_galeri1">(Select image to open gallery)</string>
+    <string name="daftar_menu_makanan_dan_minuman1">List of Food and Beverage Menu</string>
+    <string name="daftar1">\"LIST OF DIFFERENT TYPES\"</string>
+</resources>
